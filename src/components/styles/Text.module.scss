@@ -1,0 +1,142 @@
+.sliderAd{
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 10rem;
+    text-align: left;
+    letter-spacing: 1px;
+    
+
+
+    h3{
+        span{
+            background-color: black;
+            color: white;
+        }
+    }
+    p{
+        
+        font-size: 1.2rem;
+    }
+}
+
+.leftAd{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: left;
+    color: white;
+
+
+    h3{
+        letter-spacing: 1px;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 300;
+        span{
+            background-color: black;
+            color: white;
+            font-weight: 700;
+        }
+    }
+}
+.rightAd{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: left;
+    color: white;
+
+
+    h3{
+        letter-spacing: 1px;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    p{
+       
+        font-size: 1.2rem;
+        font-weight: 300;
+        span{
+            background-color: rgb(125, 34, 34);
+            color: white;
+            font-weight: 700;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sliderAd{
+         width: 60%;
+        height: fit-content;
+        margin: 0 auto;
+        text-align: left;
+        letter-spacing: 1px;
+       margin-left:1rem ;
+    
+    
+        h3{
+            span{
+                background-color: black;
+                color: white;
+            }
+        }
+        p{
+            
+            font-size: 1.2rem;
+        }
+    }
+    .leftAd{
+        width: 60%;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 8rem;
+        text-align: left;
+        color: white;
+    
+    
+        h3{
+            letter-spacing: 1px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            
+            font-size: 1.2rem;
+            font-weight: 300;
+            span{
+                background-color: black;
+                color: white;
+                font-weight: 700;
+            }
+        }
+    }
+    .rightAd{
+        width: 60%;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 8rem;
+        text-align: left;
+        color: white;
+    
+    
+        h3{
+            letter-spacing: 1px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.2rem;
+            font-weight: 300;
+            span{
+                background-color: rgb(125, 34, 34);
+                color: white;
+                font-weight: 700;
+            }
+        }
+    }
+
+}

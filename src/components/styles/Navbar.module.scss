@@ -1,0 +1,153 @@
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 15px 10px -15px #ddd; 
+    
+   
+    .navbarLinks{
+        display: flex;
+        flex-direction: row;
+        
+       
+        .left{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            justify-content: flex-start;
+            font-size: 1rem;
+            font-weight: 400;
+            align-items: flex-end;
+        }
+        .left li{
+            margin:0 0.8rem;
+                 a{
+                    text-decoration: none;
+                    color: black;
+                    letter-spacing: 0.5px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 500;
+                }
+
+        }
+        .right{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            justify-content: flex-end;
+            font-size: 1rem;
+            margin-left: 15rem;
+            font-weight: 400;
+            align-items: flex-end;
+
+        }
+        .right li{
+            display: flex;
+            flex-direction: column;
+            margin:0 0.8rem;
+            text-align: center;
+           a{text-decoration: none;
+            color: black;
+            letter-spacing: 0.5px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            }
+
+        }
+    }
+    .logo{
+        margin: 0.8rem;
+        display: flex;
+         img{
+             height: 60px;
+            object-fit:scale-down;
+
+             }
+        
+    }
+   
+    
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 15px 10px -15px #ddd; 
+        
+       
+        .navbarLinks{
+            display: flex;
+            flex-direction: column;
+            
+           
+            .left{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                list-style-type: none;
+                font-size: 1rem;
+                font-weight: 400;
+ 
+            }
+            .left li{
+                margin:0 0.8rem;
+                     a{
+                        text-decoration: none;
+                        color: black;
+                        letter-spacing: 0.5px;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 500;
+                    }
+    
+            }
+            .right{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                list-style-type: none;
+                font-size: 1rem;
+                font-weight: 400;
+                align-items: center;
+                justify-content: center;
+                margin-left: 0;
+ 
+    
+            }
+            .right li{
+                
+               a{text-decoration: none;
+                color: black;
+                letter-spacing: 0.5px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                }
+    
+            }
+        }
+        .logo{
+            margin: 0 auto;
+            display: flex;
+             img{
+                 height: 60px;
+                object-fit:scale-down;
+    
+                 }
+            
+        }
+       
+        
+    }
+}
+
+
+
+

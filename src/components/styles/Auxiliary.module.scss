@@ -1,0 +1,28 @@
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    background-color: rgb(125, 34, 34);
+    font-size: 0.8  rem;
+    font-weight: 300;
+    padding: 0.8rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .btn{
+        border: none;
+        border-radius: 5px;
+        width: fit-content;
+        color: white;
+        background-color: rgb(125, 34, 34);
+        font-size: 0.8  rem;
+        font-weight: 300;
+        padding: 0.8rem;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+}
